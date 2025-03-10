@@ -1,14 +1,14 @@
 import { Palette, PanelLeft, MousePointer, Layers } from "lucide-react"
 
-export default function Home() {
+const Home = () => {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center py-12 px-4">
+        <div className="flex min-h-screen flex-col items-center py-12 px-4">
             <main className="flex flex-col items-center text-center max-w-[800px]">
                 <div className="flex items-center justify-center space-x-2 mb-10">
                     <div className="rounded-full bg-primary/10 p-2">
                         <Palette className="h-6 w-6 text-primary" />
                     </div>
-                    <h1 className="text-2xl font-bold">Website Builder</h1>
+                    <h1 className="text-2xl font-bold">Buld</h1>
                 </div>
 
                 <h2 className="text-3xl font-bold tracking-tight mb-6">Welcome to your new project</h2>
@@ -43,9 +43,11 @@ export default function Home() {
                 </div>
             </main>
 
-            <footer className="mt-auto pt-8">
+            <footer className="pt-8">
                 <p className="text-sm text-muted-foreground text-center">Start building something amazing</p>
             </footer>
         </div>
     )
 }
+
+export default Home;
