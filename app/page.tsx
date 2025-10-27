@@ -2,7 +2,7 @@ import { PanelLeft, MousePointer, Layers } from "lucide-react"
 
 export const metadata = { title: "Home", description: "", keywords: [] };
 
-const Home = () => {
+const Page = () => {
 	return (
 		<div>
 			<main className="flex flex-col items-center text-center py-12">
@@ -45,4 +45,4 @@ const Home = () => {
 	)
 }
 
-export default Home;
+export default Page;
