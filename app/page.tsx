@@ -12,7 +12,7 @@ const Page = () => {
 					This is your blank canvas. Start building your website by adding elements from the sidebar.
 				</p>
 
-				<div className="border border-border rounded-lg p-6 w-full max-w-[600px] bg-card">
+				<div className="border border-border rounded-lg p-6 w-full max-w-150 bg-card">
 					<h3 className="font-medium mb-2">Getting Started</h3>
 					<p className="text-sm text-muted-foreground mb-4">Here are some tips to help you build your website:</p>
 					<ul className="text-sm space-y-3 text-left">
